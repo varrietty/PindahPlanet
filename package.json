@@ -1,0 +1,24 @@
+{
+  "name": "pindahplanet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agneswei/Picapica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agneswei/Picapica/issues"
+  },
+  "homepage": "https://github.com/Agneswei/Picapica#readme",
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "uuid": "^11.1.0"
+  }
+}

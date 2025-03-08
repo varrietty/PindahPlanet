@@ -1,0 +1,13 @@
+[build]
+  base = "frontend"
+  publish = "build"
+  command = "npm install && npm run build"
+
+[[redirects]]
+  from = "https://picapicaa.netlify.app/*"
+  to = "https://picapicabooth.com/:splat"
+  status = 301
+  force = true
+
+[build.environment]
+  NODE_VERSION = "20"
